@@ -1,0 +1,59 @@
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+  height:660px;
+  overflow:auto;
+  float: left;
+}
+
+.vertical-menu a {
+  background-color: #f4f9f4; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+  position: absolute;
+  width: 160px;
+}
+.mesa{
+  background-color:#222831; /* Grey background color */
+  color: black; /* Black text color */
+  width: 1000px; /* Set a width if you like */
+  height:600px;
+  float: right;
+}
+.cuadrante1{
+  background-color:#c86b85; /* Grey background color */
+  color: black; /* Black text color */
+  width: 500px; /* Set a width if you like */
+  height:300px;
+  float: right;
+}
+.cuadrante2{
+  background-color:#7045af; /* Grey background color */
+  color: black; /* Black text color */
+   width: 500px; /* Set a width if you like */
+  height:300px;
+  float: right;
+}.cuadrante3{
+  background-color: #1fe5bd; /* Grey background color */
+  color: black; /* Black text color */
+   width: 500px; /* Set a width if you like */
+  height:300px;
+  float: right;
+}
+.cuadrante4{
+  background-color: #ffd96a; /* Grey background color */
+  color: black; /* Black text color */
+   width: 500px; /* Set a width if you like */
+  height:300px;
+  float: right;
+}
